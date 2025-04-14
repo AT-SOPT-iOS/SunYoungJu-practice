@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		98EEC9002DA982F300D3EC22 /* SOPT36_WEEK2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPT36_WEEK2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9886DCDA2DAA4B0700152C64 /* autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		98EEC9122DA982F500D3EC22 /* Exceptions for "SOPT36_WEEK2" folder in "SOPT36_WEEK2" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 98EEC8FF2DA982F300D3EC22 /* SOPT36_WEEK2 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		98EEC9022DA982F300D3EC22 /* SOPT36_WEEK2 */ = {
+		9886DCDC2DAA4B0700152C64 /* SOPT36_WEEK2_Autolayout */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				98EEC9122DA982F500D3EC22 /* Exceptions for "SOPT36_WEEK2" folder in "SOPT36_WEEK2" target */,
-			);
-			path = SOPT36_WEEK2;
+			path = SOPT36_WEEK2_Autolayout;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		98EEC8FD2DA982F300D3EC22 /* Frameworks */ = {
+		9886DCD72DAA4B0700152C64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		98EEC8F72DA982F300D3EC22 = {
+		9886DCD12DAA4B0700152C64 = {
 			isa = PBXGroup;
 			children = (
-				98EEC9022DA982F300D3EC22 /* SOPT36_WEEK2 */,
-				98EEC9012DA982F300D3EC22 /* Products */,
+				9886DCDC2DAA4B0700152C64 /* SOPT36_WEEK2_Autolayout */,
+				9886DCDB2DAA4B0700152C64 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		98EEC9012DA982F300D3EC22 /* Products */ = {
+		9886DCDB2DAA4B0700152C64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98EEC9002DA982F300D3EC22 /* SOPT36_WEEK2.app */,
+				9886DCDA2DAA4B0700152C64 /* autolayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		98EEC8FF2DA982F300D3EC22 /* SOPT36_WEEK2 */ = {
+		9886DCD92DAA4B0700152C64 /* autolayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98EEC9132DA982F500D3EC22 /* Build configuration list for PBXNativeTarget "SOPT36_WEEK2" */;
+			buildConfigurationList = 9886DCED2DAA4B0900152C64 /* Build configuration list for PBXNativeTarget "autolayout" */;
 			buildPhases = (
-				98EEC8FC2DA982F300D3EC22 /* Sources */,
-				98EEC8FD2DA982F300D3EC22 /* Frameworks */,
-				98EEC8FE2DA982F300D3EC22 /* Resources */,
+				9886DCD62DAA4B0700152C64 /* Sources */,
+				9886DCD72DAA4B0700152C64 /* Frameworks */,
+				9886DCD82DAA4B0700152C64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				98EEC9022DA982F300D3EC22 /* SOPT36_WEEK2 */,
+				9886DCDC2DAA4B0700152C64 /* SOPT36_WEEK2_Autolayout */,
 			);
-			name = SOPT36_WEEK2;
+			name = autolayout;
 			packageProductDependencies = (
 			);
-			productName = SOPT36_WEEK2;
-			productReference = 98EEC9002DA982F300D3EC22 /* SOPT36_WEEK2.app */;
+			productName = autolayout;
+			productReference = 9886DCDA2DAA4B0700152C64 /* autolayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		98EEC8F82DA982F300D3EC22 /* Project object */ = {
+		9886DCD22DAA4B0700152C64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					98EEC8FF2DA982F300D3EC22 = {
+					9886DCD92DAA4B0700152C64 = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 98EEC8FB2DA982F300D3EC22 /* Build configuration list for PBXProject "SOPT36_WEEK2" */;
+			buildConfigurationList = 9886DCD52DAA4B0700152C64 /* Build configuration list for PBXProject "SOPT36_WEEK2_Autolayout" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 98EEC8F72DA982F300D3EC22;
+			mainGroup = 9886DCD12DAA4B0700152C64;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 98EEC9012DA982F300D3EC22 /* Products */;
+			productRefGroup = 9886DCDB2DAA4B0700152C64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98EEC8FF2DA982F300D3EC22 /* SOPT36_WEEK2 */,
+				9886DCD92DAA4B0700152C64 /* autolayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		98EEC8FE2DA982F300D3EC22 /* Resources */ = {
+		9886DCD82DAA4B0700152C64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		98EEC8FC2DA982F300D3EC22 /* Sources */ = {
+		9886DCD62DAA4B0700152C64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		98EEC9142DA982F500D3EC22 /* Debug */ = {
+		9886DCEE2DAA4B0900152C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -147,10 +134,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B47X24XTW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SOPT36_WEEK2/Info.plist;
+				INFOPLIST_FILE = autolayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -158,7 +144,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dudwntjs.SOPT36-WEEK2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dudwntjs.SOPT36-WEEK2-Autolayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -166,7 +152,7 @@
 			};
 			name = Debug;
 		};
-		98EEC9152DA982F500D3EC22 /* Release */ = {
+		9886DCEF2DAA4B0900152C64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -175,10 +161,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B47X24XTW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SOPT36_WEEK2/Info.plist;
+				INFOPLIST_FILE = autolayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -186,7 +171,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dudwntjs.SOPT36-WEEK2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dudwntjs.SOPT36-WEEK2-Autolayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -194,7 +179,7 @@
 			};
 			name = Release;
 		};
-		98EEC9162DA982F500D3EC22 /* Debug */ = {
+		9886DCF02DAA4B0900152C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		98EEC9172DA982F500D3EC22 /* Release */ = {
+		9886DCF12DAA4B0900152C64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98EEC8FB2DA982F300D3EC22 /* Build configuration list for PBXProject "SOPT36_WEEK2" */ = {
+		9886DCD52DAA4B0700152C64 /* Build configuration list for PBXProject "SOPT36_WEEK2_Autolayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98EEC9162DA982F500D3EC22 /* Debug */,
-				98EEC9172DA982F500D3EC22 /* Release */,
+				9886DCF02DAA4B0900152C64 /* Debug */,
+				9886DCF12DAA4B0900152C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98EEC9132DA982F500D3EC22 /* Build configuration list for PBXNativeTarget "SOPT36_WEEK2" */ = {
+		9886DCED2DAA4B0900152C64 /* Build configuration list for PBXNativeTarget "autolayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98EEC9142DA982F500D3EC22 /* Debug */,
-				98EEC9152DA982F500D3EC22 /* Release */,
+				9886DCEE2DAA4B0900152C64 /* Debug */,
+				9886DCEF2DAA4B0900152C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 98EEC8F82DA982F300D3EC22 /* Project object */;
+	rootObject = 9886DCD22DAA4B0700152C64 /* Project object */;
 }

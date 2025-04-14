@@ -1,18 +1,15 @@
 //
-//  Login.swift
-//  SOPT36_WEEK1
+//  LoginViewController_Closure.swift
+//  SOPT36_WEEK2
 //
-//  Created by 선영주 on 4/5/25.
-//
-
-//
-//  ViewController.swift
-//  SOPT36_WEEK1
-//
-//  Created by 선영주 on 4/5/25.
+//  Created by 선영주 on 4/12/25.
 //
 
-class ViewController: UIViewController {
+import UIKit
+
+final class LoginViewController_Closure: UIViewController {
+    
+    var id: String?
 
     let titleLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 69, y: 161, width: 236, height: 44))
@@ -40,28 +37,35 @@ class ViewController: UIViewController {
         return textField
     }()
     
-    var loginButton: UIButton = {
+    let loginButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 21, y: 422, width: 332, height: 58))
         button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         button.setTitle("로그인하기", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = .boldSystemFont(ofSize: 18)
-//        button.addTarget(self, action: #selector(loginButtonDidTapped), for: .touchUpInside)
         return button
     }()
-    
+
     override func viewDidLoad(){
         super.viewDidLoad()
         self.view.backgroundColor = .white
         addViews()
+        loginButton.addTarget(self, action: #selector(loginButtonDidTapped), for: .touchUpInside)
     }
-    
+
     func addViews(){
         view.addSubview(titleLabel)
         view.addSubview(idTextField)
         view.addSubview(passwordTextField)
         view.addSubview(loginButton)
     }
-    
-}
 
+    @objc func loginButtonDidTapped() {
+        let welcomeVC = WelcomeViewController_Closure()
+        welcomeVC.id = idTextField.text
+        welcomeVC.loginDataCompletion = { [weak self] returnedID in
+            self?.idTextField.text = returnedID
+        }
+        self.present(welcomeVC, animated: true)
+    }
+}
