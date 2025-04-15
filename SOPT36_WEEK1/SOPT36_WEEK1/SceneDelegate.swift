@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  autolayout
+//  SOPT36_WEEK1
 //
-//  Created by 선영주 on 4/12/25.
+//  Created by 선영주 on 4/5/25.
 //
 
 import UIKit
@@ -13,16 +13,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        
-        let loginViewController = ViewController()
-        let navigationController = UINavigationController(rootViewController: loginViewController) // 네비게이션 컨트롤러 추가
-        
-        let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = navigationController // 네비게이션 컨트롤러를 루트뷰로 설정
-        window.makeKeyAndVisible()
-        self.window = window
-    }
+                
+                let loginViewController = LoginViewController()
+                let navigationController = UINavigationController(rootViewController: loginViewController) // 네비게이션 컨트롤러 추가
+                
+                let window = UIWindow(windowScene: windowScene)
+                window.rootViewController = navigationController // 네비게이션 컨트롤러를 루트뷰로 설정
+                window.makeKeyAndVisible()
+                self.window = window
+        }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

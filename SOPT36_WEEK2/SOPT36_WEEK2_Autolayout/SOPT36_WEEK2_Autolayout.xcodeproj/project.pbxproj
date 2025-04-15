@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9886DCDA2DAA4B0700152C64 /* autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9820B6F72DAEA701004722E3 /* SOPT36_WEEK2_Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPT36_WEEK2_Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9820B7092DAEA704004722E3 /* Exceptions for "SOPT36_WEEK2_Autolayout" folder in "SOPT36_WEEK2_Autolayout" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9820B6F62DAEA701004722E3 /* SOPT36_WEEK2_Autolayout */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9886DCDC2DAA4B0700152C64 /* SOPT36_WEEK2_Autolayout */ = {
+		9820B6F92DAEA701004722E3 /* SOPT36_WEEK2_Autolayout */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9820B7092DAEA704004722E3 /* Exceptions for "SOPT36_WEEK2_Autolayout" folder in "SOPT36_WEEK2_Autolayout" target */,
+			);
 			path = SOPT36_WEEK2_Autolayout;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9886DCD72DAA4B0700152C64 /* Frameworks */ = {
+		9820B6F42DAEA701004722E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9886DCD12DAA4B0700152C64 = {
+		9820B6EE2DAEA701004722E3 = {
 			isa = PBXGroup;
 			children = (
-				9886DCDC2DAA4B0700152C64 /* SOPT36_WEEK2_Autolayout */,
-				9886DCDB2DAA4B0700152C64 /* Products */,
+				9820B6F92DAEA701004722E3 /* SOPT36_WEEK2_Autolayout */,
+				9820B6F82DAEA701004722E3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9886DCDB2DAA4B0700152C64 /* Products */ = {
+		9820B6F82DAEA701004722E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9886DCDA2DAA4B0700152C64 /* autolayout.app */,
+				9820B6F72DAEA701004722E3 /* SOPT36_WEEK2_Autolayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9886DCD92DAA4B0700152C64 /* autolayout */ = {
+		9820B6F62DAEA701004722E3 /* SOPT36_WEEK2_Autolayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9886DCED2DAA4B0900152C64 /* Build configuration list for PBXNativeTarget "autolayout" */;
+			buildConfigurationList = 9820B70A2DAEA704004722E3 /* Build configuration list for PBXNativeTarget "SOPT36_WEEK2_Autolayout" */;
 			buildPhases = (
-				9886DCD62DAA4B0700152C64 /* Sources */,
-				9886DCD72DAA4B0700152C64 /* Frameworks */,
-				9886DCD82DAA4B0700152C64 /* Resources */,
+				9820B6F32DAEA701004722E3 /* Sources */,
+				9820B6F42DAEA701004722E3 /* Frameworks */,
+				9820B6F52DAEA701004722E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9886DCDC2DAA4B0700152C64 /* SOPT36_WEEK2_Autolayout */,
+				9820B6F92DAEA701004722E3 /* SOPT36_WEEK2_Autolayout */,
 			);
-			name = autolayout;
+			name = SOPT36_WEEK2_Autolayout;
 			packageProductDependencies = (
 			);
-			productName = autolayout;
-			productReference = 9886DCDA2DAA4B0700152C64 /* autolayout.app */;
+			productName = SOPT36_WEEK2_Autolayout;
+			productReference = 9820B6F72DAEA701004722E3 /* SOPT36_WEEK2_Autolayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9886DCD22DAA4B0700152C64 /* Project object */ = {
+		9820B6EF2DAEA701004722E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					9886DCD92DAA4B0700152C64 = {
+					9820B6F62DAEA701004722E3 = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 9886DCD52DAA4B0700152C64 /* Build configuration list for PBXProject "SOPT36_WEEK2_Autolayout" */;
+			buildConfigurationList = 9820B6F22DAEA701004722E3 /* Build configuration list for PBXProject "SOPT36_WEEK2_Autolayout" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9886DCD12DAA4B0700152C64;
+			mainGroup = 9820B6EE2DAEA701004722E3;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9886DCDB2DAA4B0700152C64 /* Products */;
+			productRefGroup = 9820B6F82DAEA701004722E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9886DCD92DAA4B0700152C64 /* autolayout */,
+				9820B6F62DAEA701004722E3 /* SOPT36_WEEK2_Autolayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9886DCD82DAA4B0700152C64 /* Resources */ = {
+		9820B6F52DAEA701004722E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9886DCD62DAA4B0700152C64 /* Sources */ = {
+		9820B6F32DAEA701004722E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9886DCEE2DAA4B0900152C64 /* Debug */ = {
+		9820B70B2DAEA704004722E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -134,9 +147,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B47X24XTW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = autolayout/Info.plist;
+				INFOPLIST_FILE = SOPT36_WEEK2_Autolayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -152,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		9886DCEF2DAA4B0900152C64 /* Release */ = {
+		9820B70C2DAEA704004722E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -161,9 +175,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B47X24XTW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = autolayout/Info.plist;
+				INFOPLIST_FILE = SOPT36_WEEK2_Autolayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -179,7 +194,7 @@
 			};
 			name = Release;
 		};
-		9886DCF02DAA4B0900152C64 /* Debug */ = {
+		9820B70D2DAEA704004722E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		9886DCF12DAA4B0900152C64 /* Release */ = {
+		9820B70E2DAEA704004722E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9886DCD52DAA4B0700152C64 /* Build configuration list for PBXProject "SOPT36_WEEK2_Autolayout" */ = {
+		9820B6F22DAEA701004722E3 /* Build configuration list for PBXProject "SOPT36_WEEK2_Autolayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9886DCF02DAA4B0900152C64 /* Debug */,
-				9886DCF12DAA4B0900152C64 /* Release */,
+				9820B70D2DAEA704004722E3 /* Debug */,
+				9820B70E2DAEA704004722E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9886DCED2DAA4B0900152C64 /* Build configuration list for PBXNativeTarget "autolayout" */ = {
+		9820B70A2DAEA704004722E3 /* Build configuration list for PBXNativeTarget "SOPT36_WEEK2_Autolayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9886DCEE2DAA4B0900152C64 /* Debug */,
-				9886DCEF2DAA4B0900152C64 /* Release */,
+				9820B70B2DAEA704004722E3 /* Debug */,
+				9820B70C2DAEA704004722E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9886DCD22DAA4B0700152C64 /* Project object */;
+	rootObject = 9820B6EF2DAEA701004722E3 /* Project object */;
 }

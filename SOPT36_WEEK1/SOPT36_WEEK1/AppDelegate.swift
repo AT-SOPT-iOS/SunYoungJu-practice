@@ -1,14 +1,15 @@
 //
 //  AppDelegate.swift
-//  autolayout
+//  SOPT36_WEEK1
 //
-//  Created by 선영주 on 4/12/25.
+//  Created by 선영주 on 4/5/25.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
